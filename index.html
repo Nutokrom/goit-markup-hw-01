@@ -4,74 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>hom_work</title>
 </head>
 <body>
-    <header>
+    <!-- header -->
+    <header class="haeder">
         <nav>
-            <a href="./index.html" lang="en"><span>Web</span>Studio</a>
-            <ul>
-                <li><a href="#">Студия</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
+            <a class="heder-logo list" href="./index.html" lang="en"><span class="web">Web</span>Studio</a>
+            <ul class="list">
+                <li><a class="list list-nav" href="./index.html">Студия</a></li>
+                <li><a class="list list-nav" href="./index.html">Портфолио</a></li>
+                <li><a class="list list-nav" href="./index.html">Контакты</a></li>
             </ul>
         </nav>    
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="list">
+                <li><a class="list header-maill" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="list header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
     </header>
-    <main>    
-        <section>
-            <h1>
+    <main class="main">
+        <!-- section-one -->
+        <section class="section-one">
+            <h1 class="section-one-title">
                 Эффективные решения для вашего бизнеса
             </h1>
-            <button type="button">
+            <button class="button" type="button">
                 Заказать услугу
             </button>
         </section>
-        <section>
+        <!-- section-too -->
+        <section class="section-too">
             <h2 hidden>Наши особенности</h2>
-            <ul>
+            <ul class="list">
                 <li>
-                    <h3>
+                    <h3 class="section-too-title">
                         Внимание к деталям
                     </h3>
-                    <p>
+                    <p class="section-too-description">
                         Идейные соображения, а также начало повседневной работы по формированию позиции.
                     </p>
                 </li>
                 <li>
-                    <h3>
+                    <h3 class="section-too-title">
                         Пунктуальность
                     </h3>
-                    <p>
+                    <p class="section-too-description">
                         Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                     </p>
                 </li>
                 <li>
-                    <h3>
+                    <h3 class="section-too-title">
                         Планирование
                     </h3>
-                    <p>
+                    <p class="section-too-description">
                         Равным образом консультация с широким активом в значительной степени обуславливает.
                     </p>
                 </li>
                 <li>
-                    <h3>
+                    <h3 class="section-too-title">
                         Современные технологии
                     </h3>
-                    <p>
+                    <p class="section-too-description">
                         Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                     </p>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>
+        <!-- section-three -->
+        <section class="secion-three">
+            <h2 class="section-three-title">
                 Чем мы занимаемся
             </h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./img/box_1.jpg" alt="клавиатура" width="370" height="294">
                 </li>
@@ -83,47 +92,48 @@
                 </li>
             </ul>
         </section>
+        <!-- section-four -->
         <section>
-            <h2>
+            <h2 class="section-four-title">
                 Наша команда
             </h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./img/img_igor.jpg" alt="Игорь" width="270" height="260">
-                    <h3>Игорь Демьяненко</h3>
-                    <p lang="en">Product Designer</p>
+                    <h3 class="section-four-user">Игорь Демьяненко</h3>
+                    <p class="section-four-subtitle" lang="en">Product Designer</p>
                 </li>
                 <li>
                     <img src="./img/img_olga.jpg" alt="Ольга" width="270" height="260">
-                    <h3>Ольга Репина</h3>
-                    <p lang="en">Frontend Developer</p>
+                    <h3 class="section-four-user">Ольга Репина</h3>
+                    <p class="section-four-subtitle" lang="en">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./img/img_nikolai.jpg" alt="Николай" width="270" height="260">
-                    <h3>Николай Тарасов</h3>
-                    <p lang="en">Marketing</p>
+                    <h3 class="section-four-user">Николай Тарасов</h3>
+                    <p class="section-four-subtitle" lang="en">Marketing</p>
                 </li>
                 <li>
                     <img src="./img/img_mihail.jpg" alt="Михаил" width="270" height="260">
-                    <h3>Михаил Ермаков</h3>
-                    <p lang="en">UI Designer</p>
+                    <h3 class="section-four-user">Михаил Ермаков</h3>
+                    <p class="section-four-subtitle" lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href=""><span>Web</span>Studio</a>
+    <!-- footer -->
+    <footer class="footer">
+        <a class="list footer-logo" href=""><span class="web">Web</span>Studio</a>
         <address>
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow"></a>
-                        г. Киев, пр-т Леси Украинки, 26
+                    <a class="list footer-address" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com">info@example.com</a>
+                    <a class="list footer-maill" href="mailto:info@devstudio.com">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380961111111">+38 099 111 11 11</a>
+                    <a class="list footer-tel" href="tel:+380961111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
