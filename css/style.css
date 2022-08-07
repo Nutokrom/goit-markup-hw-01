@@ -244,7 +244,7 @@ body {
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--portfolio-title-color);
 }
@@ -252,7 +252,7 @@ body {
 .portfolio-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--portfolio-text-color);
 }
